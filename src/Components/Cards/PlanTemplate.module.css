@@ -1,0 +1,10 @@
+.template {
+      height: 188px;
+      background-color: #0579e4;
+}
+
+@media screen and (max-width: 470px) {
+      .template {
+            height: 250px;
+      }
+}

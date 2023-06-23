@@ -1,0 +1,10 @@
+.label {
+      margin: 10px 0;
+      font-size: 18px;
+}
+.label label {
+      font-weight: 700;
+}
+.label span {
+      font-weight: 400;
+}

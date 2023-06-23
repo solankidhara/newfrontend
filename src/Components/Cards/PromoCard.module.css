@@ -1,0 +1,28 @@
+.promo-card-index {
+      height: 65px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: black;
+}
+
+.promo-card {
+      height: 219px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      background-color: black;
+}
+
+@media screen and (max-width: 520px) {
+      .promo-card-index {
+            padding: 30px;
+            height: 100px;
+      }
+      .promo-card {
+            padding: 50px;
+            height: auto;
+      }
+}

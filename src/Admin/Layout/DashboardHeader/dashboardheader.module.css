@@ -1,0 +1,32 @@
+.dashboardheader {
+      margin-bottom: 20px;
+}
+.dashboardheader h1 {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 28px;
+      line-height: 38px;
+      color: #212121;
+}
+.dashboardheader h1 span {
+      color: #8d8d8d;
+      font-weight: 400;
+}
+
+.notification_icon {
+      font-size: 20px;
+      position: relative;
+      margin: 0 20px;
+}
+.notification_icon:after {
+      position: absolute;
+      content: '';
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: red;
+      top: 4px;
+      right: 3px;
+      border: 1px solid #fff;
+}

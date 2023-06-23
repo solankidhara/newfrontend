@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+
+.spanText {
+      color: white;
+      line-height: 72.61px;
+      font-size: 60px;
+      font-weight: 700;
+      font-family: 'Inter', sans-serif;
+}
+
+.index {
+      line-height: 26.4px;
+      font-size: 22px;
+      color: white;
+      font-weight: 700;
+}
+
+.buttonText {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 21.6px;
+}

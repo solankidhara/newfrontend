@@ -1,0 +1,20 @@
+.field {
+      box-shadow: none !important;
+      outline: none !important;
+      max-width: 80%;
+
+      border-radius: 0 !important;
+      border-width: 0 !important;
+      border-bottom: 1px solid black !important;
+      margin-left: 30px !important;
+
+      font-style: normal !important;
+      font-weight: 275 !important;
+      font-size: 18px !important;
+      line-height: 22px !important;
+      opacity: 1 !important;
+}
+
+.field::placeholder {
+      color: black !important;
+}

@@ -1,0 +1,40 @@
+.bg {
+      background-color: #d9d9d9;
+      height: 445px;
+      margin-top: 69px;
+}
+
+@media screen and (max-width: 1199px) {
+      .bg {
+            height: 600px;
+      }
+}
+
+@media screen and (max-width: 360px) {
+      .bg {
+            height: 750px;
+      }
+}
+
+.title {
+      font-size: 22px;
+      font-weight: 600;
+      line-height: 26px;
+      color: black;
+}
+
+.content {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: black;
+}
+.content-container {
+      max-width: 521px;
+}
+
+.img-container {
+      width: 476px;
+      height: 323px;
+      border-radius: 5px;
+}

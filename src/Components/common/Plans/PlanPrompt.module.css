@@ -1,0 +1,31 @@
+.text {
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 46px;
+      color: white;
+}
+
+.btn {
+      min-height: 56px;
+      min-width: 157px;
+      margin: 0 0 0 84px;
+
+      background-color: white !important;
+      border-radius: 5px !important;
+      border-color: white !important;
+      font-weight: 700 !important;
+      font-size: 24px !important;
+      line-height: 29px !important;
+      color: black !important;
+}
+
+@media screen and (max-width: 711px) {
+      .btn {
+            margin: 0 20px;
+      }
+}
+
+.btn:hover {
+      background-color: rgb(219, 219, 219) !important;
+      border-color: rgb(219, 219, 219) !important;
+}

@@ -1,0 +1,13 @@
+.info {
+      margin: 0 25px;
+}
+
+.preview_img{width: 70%;}
+.preview_img img{
+      width: 100%;
+}
+
+
+@media screen and (max-width: 991px) {
+      .preview_img{width: 100%;}
+}

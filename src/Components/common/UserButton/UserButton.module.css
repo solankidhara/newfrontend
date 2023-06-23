@@ -1,0 +1,12 @@
+.btn {
+      background-color: #fd6c87 !important;
+      border-color: #fd6c87 !important;
+      box-shadow: none !important;
+
+      font-style: normal !important;
+      font-weight: 500 !important;
+      font-size: 20px !important;
+      line-height: 24px !important;
+
+      padding: 0.5rem 2rem 0.5rem 1.4rem !important;
+}

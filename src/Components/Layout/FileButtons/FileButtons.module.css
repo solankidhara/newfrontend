@@ -1,0 +1,15 @@
+.btns {
+      align-items: center;
+}
+.btns button {
+      height: 41px !important;
+      width: 178px !important;
+      border-radius: 15px !important;
+      margin: 8.5px 0;
+}
+
+@media screen and (max-width: 575px) {
+      .btns button {
+            width: 100% !important;
+      }
+}

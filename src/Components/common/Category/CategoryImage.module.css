@@ -1,0 +1,20 @@
+.thumbnail {
+      max-width: fit-content;
+      max-height: fit-content;
+      cursor: pointer;
+      margin: 35px;
+}
+
+.tn-img {
+      width: 147px;
+      height: 147px;
+      border-radius: 8px;
+      overflow: hidden;
+}
+
+.thumbnail-title {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 600;
+      margin: 7px auto;
+}

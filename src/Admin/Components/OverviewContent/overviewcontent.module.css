@@ -1,0 +1,30 @@
+.title {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 13px;
+      line-height: 18px;
+      color: #8d8d8d;
+      margin-bottom: 10px;
+}
+.counter {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 36px;
+      margin-bottom: 0;
+}
+.result {
+      font-family: 'Manrope';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 16px;
+}
+.red {
+      color: #dc3545;
+}
+.green {
+      color: #3bb001;
+}

@@ -1,0 +1,42 @@
+.my {
+      height: 45px !important;
+      width: 260px !important;
+      border-radius: 20px !important;
+      background-color: black;
+      padding: 6px !important;
+      margin: 0 auto;
+      margin-bottom: 25px;
+      display: flex;
+      align-items: center;
+}
+
+.active {
+      width: 135px !important;
+      height: 34px !important;
+
+      background-color: white !important;
+      border-width: 0 !important;
+      border-radius: 20px !important;
+      box-shadow: none !important;
+      outline: none !important;
+      color: black !important;
+      text-align: center;
+}
+
+.passive {
+      width: 135px !important;
+      height: 34px !important;
+
+      background-color: black !important;
+      border-width: 0 !important;
+      border-radius: 20px !important;
+      box-shadow: none !important;
+      outline: none !important;
+      color: white !important;
+      text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+      .my{margin-bottom: 30px;}
+}

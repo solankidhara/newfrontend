@@ -1,0 +1,50 @@
+.title {
+      font-weight: 700;
+      font-size: 22px;
+      padding: 2.5vh 0;
+}
+
+.price {
+      padding: 0.6vh 0;
+}
+.price h4 {
+      font-weight: 900;
+      font-size: 26px;
+      margin: 0;
+}
+.price h4::before {
+      content: '$';
+}
+.price span {
+      font-weight: 300;
+      font-size: 14px;
+}
+
+.data {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 200%;
+}
+
+.forRow {
+      margin-top: 120px;
+}
+
+
+.btn {
+      border-radius: 15px !important;
+      background-color: black !important;
+
+      width: 134px !important;
+      height: 41px !important;
+
+      margin: 41px 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+      .tbl tr,.tbl th,.tbl td, .tbl{display: block;}
+      .tbl th{margin-bottom: 30px;border-bottom: 1px solid #000;}
+      .tbl th:last-child{margin-bottom: 0;border-bottom: none;}
+}

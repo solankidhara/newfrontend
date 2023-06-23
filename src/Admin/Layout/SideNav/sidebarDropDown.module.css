@@ -1,0 +1,46 @@
+.dropdown {
+    padding-left: 70px;
+    border-radius: 0 30px 30px 0;
+    font-size: 18px !important;
+    line-height: 24px;
+    color: #222 ;
+}
+
+.bg_active{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.dropdown svg{
+    font-size: 24px;
+    margin-right: 12px;
+}
+
+
+.dropdown_item{
+    color: #222 ;
+    text-decoration: none;
+}
+
+
+.dropdown_item svg path{
+    fill: #222;
+}
+
+.dropdown_item:hover svg path{
+    fill: #1e3bb3;
+}
+
+.dropdown_item:hover  ,.active {
+    color: #1e3bb3;
+}
+
+.active svg path{
+    fill: #1e3bb3;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .dropdown{
+          padding-left: 30px !important;
+    }
+}

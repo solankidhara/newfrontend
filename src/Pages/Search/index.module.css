@@ -1,0 +1,10 @@
+.bar {
+      position: relative;
+      height: 22vh;
+}
+
+@media screen and (max-width: 991px) {
+      .bar {
+            height: 45vh;
+      }
+}

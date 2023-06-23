@@ -1,0 +1,6 @@
+.img-container {
+    max-width: 318px;
+    max-height: 200px;
+    overflow: hidden;
+    cursor: pointer;
+}

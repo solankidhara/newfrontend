@@ -1,0 +1,14 @@
+.browse-sec {
+      position: relative;
+}
+
+.browse-sec img {
+      height: 450px;
+      width: 100vw;
+}
+
+@media screen and (max-width: 750px) {
+      .browse-sec img {
+            height: 100%;
+      }
+}

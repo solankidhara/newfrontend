@@ -1,0 +1,11 @@
+.dashboardTab :global(.nav-item){position: relative;}
+.dashboardTab :global(.nav-item:after){position: absolute;content: '';bottom: 0;right: 0;height: 35px;width: 1px;background-color: #dee2e6;}
+.dashboardTab :global(.nav-item .nav-link){border: none;background: transparent !important;color: #212121;font-family: 'Manrope';font-style: normal;font-weight: 500;font-size: 16px;line-height: 18px;padding: 12px 14px !important;}
+.dashboardTab :global(.nav-item .nav-link.active ){color: #1E3BB3;}
+
+.dashboard_actions_container{display: flex;justify-content: flex-end;}
+
+@media screen and (max-width: 991px) {
+      .dashboard_actions_container{flex-direction: column;justify-content: center;text-align: center;}
+      .dashboard_action{margin-bottom: 20px;}
+}

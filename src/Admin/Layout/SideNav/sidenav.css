@@ -1,0 +1,3 @@
+.admin_sidebar .nav-link.active{background-color: rgba(0, 0, 0, .05);color: #1e3bb3 !important;}
+.admin_sidebar .nav-link svg path {fill: #222;}
+.admin_sidebar .nav-link.active svg path {fill: #1e3bb3;}

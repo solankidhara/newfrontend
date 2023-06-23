@@ -1,0 +1,17 @@
+.custom-table-header {
+      border: none;
+}
+.custom-table-header-container {
+      border-bottom: 1px solid #000 !important;
+      margin-bottom: 10px !important;
+}
+.custom-table-header-container tr {
+      border-top: none !important;
+}
+.custom-table-container {
+      border: none;
+}
+.custom-table-body-container tr {
+      border-bottom: none;
+      border-top: none;
+}
