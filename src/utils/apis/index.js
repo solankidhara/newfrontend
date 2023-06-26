@@ -4,7 +4,7 @@ import axios from "axios";
 // const browserAxios = createAxios();
 
 export const getRootRoute =() => {
-  return  axios.get( 'https://mosbackend.uc.r.appspot.com/api/v1/users');
+  return  axios.get( 'https://mosbackls.uc.r.appspot.com/api/v1/users');
 };
 
 // export const getUsers = (axios = browserAxios) => {
